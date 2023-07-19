@@ -1,5 +1,7 @@
-package com.john.tutorialmod;
+package com.Austin.tutorialmod;
 
+import com.Austin.tutorialmod.item.ModItems;
+import com.Austin.tutorialmod.item.ModItemsGroup;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemsGroup.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }

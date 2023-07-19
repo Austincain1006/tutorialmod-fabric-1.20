@@ -1,4 +1,4 @@
-package com.john.tutorialmod;
+package com.Austin.tutorialmod;
 
 import net.fabricmc.api.ClientModInitializer;
 

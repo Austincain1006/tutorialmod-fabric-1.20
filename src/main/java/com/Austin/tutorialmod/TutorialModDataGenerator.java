@@ -1,4 +1,4 @@
-package com.john.tutorialmod;
+package com.Austin.tutorialmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
