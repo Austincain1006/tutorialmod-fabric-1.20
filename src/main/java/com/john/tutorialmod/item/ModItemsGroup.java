@@ -1,6 +1,6 @@
-package com.Austin.tutorialmod.item;
+package com.john.tutorialmod.item;
 
-import com.Austin.tutorialmod.TutorialMod;
+import com.john.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,6 +18,7 @@ public class ModItemsGroup {
                 // Add Custom Items Here
                 entries.add(ModItems.RUBY);
                 entries.add(ModItems.RAW_RUBY);
+                entries.add(ModItems.RUBY_FRAGMENT);
 
             }).build());
 

@@ -1,6 +1,6 @@
-package com.Austin.tutorialmod.item;
+package com.john.tutorialmod.item;
 
-import com.Austin.tutorialmod.TutorialMod;
+import com.john.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,6 +14,7 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item RUBY_FRAGMENT = registerItem("ruby_fragment", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);

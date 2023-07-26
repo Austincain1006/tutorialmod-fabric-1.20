@@ -1,7 +1,7 @@
-package com.Austin.tutorialmod;
+package com.john.tutorialmod;
 
-import com.Austin.tutorialmod.item.ModItems;
-import com.Austin.tutorialmod.item.ModItemsGroup;
+import com.john.tutorialmod.item.ModItems;
+import com.john.tutorialmod.item.ModItemsGroup;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
