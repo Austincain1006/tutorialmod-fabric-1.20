@@ -1,6 +1,7 @@
 package com.john.tutorialmod.item;
 
 import com.john.tutorialmod.TutorialMod;
+import com.john.tutorialmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,6 +20,8 @@ public class ModItemsGroup {
                 entries.add(ModItems.RUBY);
                 entries.add(ModItems.RAW_RUBY);
                 entries.add(ModItems.RUBY_FRAGMENT);
+
+                entries.add(ModBlocks.RUBY_BLOCK);
 
             }).build());
 
